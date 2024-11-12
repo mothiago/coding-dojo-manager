@@ -97,9 +97,11 @@ Para fazer deploy no GitHub Pages:
 
 1. Fork este repositório
 2. Vá para Settings > Pages
-3. Configure a source como "GitHub Actions"
-4. Push para a branch main
+3. Em "Build and deployment":
+   - Source: selecione "Deploy from a branch"
+   - Branch: selecione "gh-pages" e "/ (root)"
+4. Aguarde alguns minutos para o deploy ser concluído
 
 O GitHub Actions irá automaticamente fazer build e deploy da aplicação.
 
-Demo: https://seu-usuario.github.io/coding-dojo-manager
+Demo: https://mothiago.github.io/coding-dojo-manager
