@@ -28,7 +28,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          NODE_ENV: production
+          GITHUB_REPOSITORY: ${{ github.repository }}
 
       # Adicionar um arquivo .nojekyll para evitar processamento Jekyll
       - name: Add .nojekyll file
