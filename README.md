@@ -26,7 +26,7 @@ Uma aplicação web moderna para gerenciar sessões de Coding Dojo, desenvolvida
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/coding-dojo-manager.git
+git clone https://github.com/mothiago/coding-dojo-manager.git
 
 # Entre no diretório
 cd coding-dojo-manager
@@ -89,7 +89,7 @@ Se você encontrar algum bug, por favor abra uma issue descrevendo o problema e 
 
 Seu Nome - [@seu_twitter](https://twitter.com/seu_twitter) - seu.email@exemplo.com
 
-Link do Projeto: [https://github.com/seu-usuario/coding-dojo-manager](https://github.com/seu-usuario/coding-dojo-manager)
+Link do Projeto: [https://github.com/mothiago/coding-dojo-manager](https://github.com/mothiago/coding-dojo-manager)
 
 ## 🚀 Deploy
 
