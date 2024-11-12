@@ -90,3 +90,16 @@ Se você encontrar algum bug, por favor abra uma issue descrevendo o problema e 
 Seu Nome - [@seu_twitter](https://twitter.com/seu_twitter) - seu.email@exemplo.com
 
 Link do Projeto: [https://github.com/seu-usuario/coding-dojo-manager](https://github.com/seu-usuario/coding-dojo-manager)
+
+## 🚀 Deploy
+
+Para fazer deploy no GitHub Pages:
+
+1. Fork este repositório
+2. Vá para Settings > Pages
+3. Configure a source como "GitHub Actions"
+4. Push para a branch main
+
+O GitHub Actions irá automaticamente fazer build e deploy da aplicação.
+
+Demo: https://seu-usuario.github.io/coding-dojo-manager
