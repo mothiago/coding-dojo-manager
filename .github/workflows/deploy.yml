@@ -27,6 +27,12 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          NODE_ENV: production
+
+      # Adicionar um arquivo .nojekyll para evitar processamento Jekyll
+      - name: Add .nojekyll file
+        run: touch ./out/.nojekyll
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
